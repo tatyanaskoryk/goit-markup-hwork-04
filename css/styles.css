@@ -138,6 +138,8 @@ align-items: center;
 .section-one {
     background-color:var(--color-navy-blue-modal);
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), 
+rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 }
 
     .main-one-title{color:var(--color-white);
@@ -317,6 +319,7 @@ align-items: center;
 
  .container-nav-portfolio{
     display:flex;
+   align-items: center; 
  }
 
 /* MAIN SECTION-----BUTTONS---------------------- */
