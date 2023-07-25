@@ -98,6 +98,16 @@ list-style: none;
     color: var(--color-ocean);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
+.header-menu-link::after{
+
+    content: "";
+    position: absolute; 
+    left: 0;
+     bottom: -1px; 
+      height: 4px; 
+      background-color: var(--color-ocean); 
+      border-radius: 2px; 
+}
 
     address{
         margin-left: auto;
