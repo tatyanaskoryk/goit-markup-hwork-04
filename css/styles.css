@@ -358,15 +358,18 @@ height: 88px;
     background: var(--color-navy-blue-modal);
     padding: 100px 0;}
 
-.container{
+.footer-container{
     display: flex;
     align-items: baseline;
 
 }
-
+.footer-container-webstudio{
+ margin-right: 120px;
+}
 
 .footer-social{
-    margin-right: 120px;
+
+
 
 }
 
