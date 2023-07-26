@@ -449,7 +449,7 @@ height: 88px;
    display: flex;
    align-items: center; 
    justify-content: center;
-   
+
 }
 
 
@@ -493,8 +493,8 @@ height: 88px;
 
 
 
-.button-all:hover {color: var(--color-white); background-color:var(--color-ocean); border: 1px solid transparent;}
-.button-all:focus {color: var(--color-white); background-color:var(--color-ocean); border: 1px solid transparent;}
+.button-all:hover {color: var(--color-white); background-color:var(--color-ocean); border: 1px solid transparent;  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
+.button-all:focus {color: var(--color-white); background-color:var(--color-ocean); border: 1px solid transparent; box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);}
 
  
 
@@ -556,4 +556,14 @@ height: 88px;
         margin-bottom: 8px;
     }
 
+.main-section-link{
+    display: block;
+}
+
+.main-section-link:hover{
+     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.main-section-link:focus{
+     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
