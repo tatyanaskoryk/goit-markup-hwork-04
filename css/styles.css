@@ -368,7 +368,7 @@ height: 88px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
-.customer-icon:hover, .customer-icon:focus {color: #404bbf;  border-color: #404bbf;}
+.customers-icon:hover, .customers-icon:focus {color: #404bbf;  border-color: #404bbf;}
     
 
 
@@ -649,5 +649,5 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cub
 
 .modal-svg{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    
+
 }
