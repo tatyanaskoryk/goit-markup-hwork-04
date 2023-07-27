@@ -452,7 +452,12 @@ height: 88px;
 
 }
 
-
+.footer-icons:hover, .footer-icons:focus {
+     background-color: #31d0aa;
+}
+.footer-social-icons{
+    fill: var(--color-cloud);
+}
 
 
 
