@@ -196,6 +196,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
         display: block;
         margin-left: auto;
         margin-right: auto;
+         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
      }
 
         .section-one-button:hover{background-color: var(--color-ocean);}
@@ -338,8 +339,8 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
         align-items: center;
         justify-content: center; 
     }
-    .icon-instagram:hover{ background-color: (var(--color-ocean));}
-    .icon-instagram:focus{ background-color: (var(--color-ocean));}
+    .icon-social:hover{ background-color: (var(--color-ocean));}
+    .icon-social:focus{ background-color: (var(--color-ocean));}
     
 
 
