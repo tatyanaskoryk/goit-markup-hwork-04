@@ -309,26 +309,11 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
 
         }
 
-        .team-instagram{
+        .team-item-social{
          width: 40px;
          height: 40px;
         }
 
-        .team-twitter{
-          width: 40px;
-          height: 40px;
-        }
-
-        .team-facebook{
-       width: 40px;
-       height: 40px;
-
-        }
-
-        .team-linkedin{
-          width: 40px;
-          height: 40px;
-        }
 
     .icon-social{
         width: 100%;
@@ -338,6 +323,7 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
         display: flex; 
         align-items: center;
         justify-content: center; 
+         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     }
     .icon-social:hover{ background-color: (var(--color-ocean));}
     .icon-social:focus{ background-color: (var(--color-ocean));}
