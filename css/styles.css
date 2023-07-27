@@ -341,6 +341,20 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     }
     .icon-social:hover{ background-color: (var(--color-ocean));}
     .icon-social:focus{ background-color: (var(--color-ocean));}
+
+
+    .team-insta{
+     fill: var(--color-cloud);
+    }
+     .team-twit{
+     fill: var(--color-cloud);
+    }
+     .team-fb{
+     fill: var(--color-cloud);
+    }
+     .team-in{
+     fill: var(--color-cloud);
+    }
     
 
 
