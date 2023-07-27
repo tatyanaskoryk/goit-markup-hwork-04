@@ -325,22 +325,14 @@ rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
         justify-content: center; 
          transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
     }
-    .icon-social:hover{ background-color: (var(--color-ocean));}
-    .icon-social:focus{ background-color: (var(--color-ocean));}
+    .icon-social:hover, .icon-social:focus {background-color: #404bbf;}
+    
 
 
-    .team-insta{
+    .team-soc{
      fill: var(--color-cloud);
     }
-     .team-twit{
-     fill: var(--color-cloud);
-    }
-     .team-fb{
-     fill: var(--color-cloud);
-    }
-     .team-in{
-     fill: var(--color-cloud);
-    }
+     
     
 
 
